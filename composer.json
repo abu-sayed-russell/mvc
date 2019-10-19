@@ -1,0 +1,19 @@
+{
+    "name": "getweb/mvc",
+    "description": "Awesome OOP PHP MVC Framework",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "R S RUSSELL",
+            "email": "abusayedrussell@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "core\\": "app/core/",
+            "app\\": "app/"
+        }
+    }
+}
