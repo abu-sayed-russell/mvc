@@ -10,5 +10,10 @@ class Controller{
     {
         $this->load = new Load();;
     }
+// Base Url
+  public function getBaseUrl() {
+    $query = $_SERVER['REQUEST_URI'];
 
+    return $query;
+  }
 }

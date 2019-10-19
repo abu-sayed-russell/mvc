@@ -1,0 +1,1 @@
+<?phpnamespace app\Http\Controllers;use app\Http\Controllers\Controller;class TestController extends Controller{  public function __construct()  {    //parent::__construct();  }  public function russell(){    echo "Load From method";  }}

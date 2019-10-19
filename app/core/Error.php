@@ -2,13 +2,13 @@
 
 namespace core;
 
-
+use app\Http\Controllers\Controller;
 /**
  * Error and exception handler
  *
  * PHP version 7.0
  */
-class Error extends Controllers
+class Error extends Controller
 {
 
     /**

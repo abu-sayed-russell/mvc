@@ -17,6 +17,10 @@ class DashboardController extends Controller
     $data['cat'] = $model->getcat();
     $this->load->view('admin/dashboard', $data);
   }
+  public function home()
+  {
+   echo 'home';
+  }
 
 
 }
