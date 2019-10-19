@@ -5,7 +5,7 @@
 <div class="container body">
     <div class="main_container">
             <!-- Start Loader -->
-<!-- <div class="page-loader">
+<div class="page-loader">
     <div class="preloader loading">
         <span class="slice"></span>
         <span class="slice"></span>
@@ -14,7 +14,7 @@
         <span class="slice"></span>
         <span class="slice"></span>
     </div>
-</div> -->
+</div>
 <!-- End Loader -->
 
 <!-- Start Scroll Top -->
@@ -26,10 +26,10 @@
     <div class="left_color scroll-view">
         <div class="navbar nav_title">
             <a href="index.html" class="medium-logo">
-                <img src="assets/global/images/prince_logo.png" alt="medium-logo">
+                <img src="<?php echo asset; ?>public/assets/backend/global/images/prince_logo.png" alt="medium-logo">
             </a>
             <a href="index.html" class="small-logo">
-                <img src="assets/global/images/prince_logo2.png" alt="small-logo">
+                <img src="<?php echo asset; ?>public/assets/backend/global/images/prince_logo2.png" alt="small-logo">
             </a>
         </div>
         <div class="clearfix"></div>

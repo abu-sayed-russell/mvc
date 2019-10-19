@@ -10,6 +10,7 @@ class ComposerStaticInit157eb5a313af6425eabe546085e12e93
         'c' => 
         array (
             'core\\' => 5,
+            'config\\' => 7,
         ),
         'a' => 
         array (
@@ -20,7 +21,11 @@ class ComposerStaticInit157eb5a313af6425eabe546085e12e93
     public static $prefixDirsPsr4 = array (
         'core\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app/core',
+            0 => __DIR__ . '/../..' . '/core',
+        ),
+        'config\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/config',
         ),
         'app\\' => 
         array (

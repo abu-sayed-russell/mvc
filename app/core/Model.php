@@ -1,0 +1,1 @@
+<?phpnamespace app\core;use config\Database;class Model{  protected $db = array();  function __construct() {    try {      $this->db = new Database();    } catch (PDOException $e) {      exit('Database connection could not be established.');    }  }}

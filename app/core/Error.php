@@ -3,8 +3,6 @@
 namespace core;
 
 
-use app\config\Config;
-
 /**
  * Error and exception handler
  *

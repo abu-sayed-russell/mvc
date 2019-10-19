@@ -2,18 +2,21 @@
 
 use app\Http\Controllers\Controller;
 
-class DashboardController extends Controller {
+class DashboardController extends Controller
+{
 
-    public function __construct()
-    {
-        parent::__construct();
-    }
-    public function home(){
-        $this->load->view('admin/dashboard');
-    }
+  public function __construct()
+  {
+    parent::__construct();
+  }
 
-    public function russell($param){
-        echo "Load From method $param";
-    }
+  public function index()
+  {
+    $data = array();
+    $model = $this->load->model('category');
+    $data['cat'] = $model->getcat();
+    $this->load->view('admin/dashboard', $data);
+  }
+
 
 }

@@ -12,8 +12,9 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "core\\": "app/core/",
-            "app\\": "app/"
+            "core\\": "core/",
+            "app\\": "app/",
+            "config\\": "config/"
         }
     }
 }

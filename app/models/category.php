@@ -1,0 +1,1 @@
+<?phpuse app\core\Model;class category extends Model{  public function __construct() {    return parent::__construct();  }  public function getcat() {    $sql = 'SELECT * From cat';    $query = $this->db->query($sql);    return $query->fetchAll();  }}

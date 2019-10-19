@@ -5,7 +5,7 @@
                 <a id="menu_toggle"><i class="fa fa-bars"></i></a>
                 <div class="responsive-logo">
                     <a href="index.html">
-                        <img src="assets/global/images/prince_logo.png" alt="main-logo">
+                        <img src="<?php echo asset; ?>public/assets/backend/global/images/prince_logo.png" alt="main-logo">
                     </a>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                                 <a href="javascript:;" class="list-group-item">
                                     <div class="media">
                                         <div class="pull-left">
-                                            <img src="assets/global/images/user1.jpg" alt="user">
+                                            <img src="<?php echo asset; ?>public/assets/backend/global/images/user1.jpg" alt="user">
                                         </div>
                                         <div class="media-body">
                                             <h5 class="media-heading"><span>Domance Den</span> posted a photo on
@@ -52,7 +52,7 @@
                                 <a href="javascript:;" class="list-group-item">
                                     <div class="media">
                                         <div class="pull-left">
-                                            <img src="assets/global/images/user2.jpg" alt="user">
+                                            <img src="<?php echo asset; ?>public/assets/backend/global/images/user2.jpg" alt="user">
                                         </div>
                                         <div class="media-body">
                                             <h5 class="media-heading"><span>Wikko Menta</span> commented on your
@@ -63,7 +63,7 @@
                                 <a href="javascript:;" class="list-group-item">
                                     <div class="media">
                                         <div class="pull-left">
-                                            <img src="assets/global/images/user3.jpg" alt="user">
+                                            <img src="<?php echo asset; ?>public/assets/backend/global/images/user3.jpg" alt="user">
                                         </div>
                                         <div class="media-body">
                                             <h5 class="media-heading"><span>Jonny Sem</span> posted 4 comments
@@ -74,7 +74,7 @@
                                 <a href="javascript:;" class="list-group-item">
                                     <div class="media">
                                         <div class="pull-left">
-                                            <img src="assets/global/images/user4.jpg" alt="user">
+                                            <img src="<?php echo asset; ?>public/assets/backend/global/images/user4.jpg" alt="user">
                                         </div>
                                         <div class="media-body">
                                             <h5 class="media-heading"><span>Doli Senga</span> posted a photo on
@@ -85,7 +85,7 @@
                                 <a href="javascript:;" class="list-group-item">
                                     <div class="media">
                                         <div class="pull-left">
-                                            <img src="assets/global/images/user5.jpg" alt="user">
+                                            <img src="<?php echo asset; ?>public/assets/backend/global/images/user5.jpg" alt="user">
                                         </div>
                                         <div class="media-body">
                                             <h5 class="media-heading"><span>Bhura Kenta</span> commented on your
@@ -96,7 +96,7 @@
                                 <a href="javascript:;" class="list-group-item">
                                     <div class="media">
                                         <div class="pull-left">
-                                            <img src="assets/global/images/user6.jpg" alt="user">
+                                            <img src="<?php echo asset; ?>public/assets/backend/global/images/user6.jpg" alt="user">
                                         </div>
                                         <div class="media-body">
                                             <h5 class="media-heading"><span>Jolly Baby</span> posted 2 comments
@@ -123,7 +123,7 @@
                         <a href="javascript:" class="dropdown-toggle waves-effect waves-light"
                            data-toggle="dropdown"
                            aria-expanded="false">
-                            <img src="assets/global/images/user10.jpg" alt="user">
+                            <img src="<?php echo asset; ?>public/assets/backend/global/images/user10.jpg" alt="user">
                         </a>
                         <ul class="dropdown-menu">
                             <li><a href="javascript:" class="waves-effect waves-light">
